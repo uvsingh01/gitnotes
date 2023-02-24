@@ -34,6 +34,8 @@ git checkout "branch" :- to point towards the branch and every commit will happe
 
 git pull upstream main :- this will update the repo to the upstream 
 
+git remote remove origin :- to remove the origin 
+
 
 // git bash basic command
 
