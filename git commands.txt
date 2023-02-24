@@ -1,0 +1,64 @@
+// git commands
+
+git init :-  to initialise the git
+
+git status :- show the list of untracked and tracked cchanges
+
+git add . :- to track all the changes at once 
+
+git add "filename.ext" :- to add a particular file or folder to be tracked
+
+git commit -m "message" :- to save tracked changes
+
+git restore --staged "filename.ext" : to untrack the file 
+
+git log :- to get all the commits that were saved(press q to exit log)
+
+git reset "correspondingstring" :- to go back to a particular commit
+
+git stash :- to save untracked and trackedchanges to background so that we can cal them whenever needed
+
+git stash pop :- to call stashed tracks to upfront
+
+git stash clean:- to clear the stash
+
+git remote add origin "url" :- to connect git to github
+
+git push origin branch :- to save the commits and push data to github
+
+git clone "url" :- to clone  repo
+
+git branch "name" :- to create a branch
+
+git checkout "branch" :- to point towards the branch and every commit will happen on this branch
+
+git pull upstream main :- this will update the repo to the upstream 
+
+
+// git bash basic command
+
+li :- to show all the files and folder 
+
+li -a :- to show all the files and folders including the hidden ones
+
+cd "foldername" :- to go inside the particular folder
+
+cd .. :- one step out of directory
+
+cd ../ :- all the way out to root directory
+
+mkdir "foldername" :- to add a folder
+
+touch "filename.ext" :- to add a file
+
+vi "filename.ext" :- to modify a file from inside
+
+cat "filename.txt" :- to show what inside the file
+
+:wp / :x :- to exit saving the changes
+
+:qa! :- to exit discarding the changes
+
+rm -rf "filename.ext" :- to delte a file
+
+
