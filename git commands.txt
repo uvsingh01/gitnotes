@@ -24,6 +24,8 @@ git stash clean:- to clear the stash
 
 git remote add origin "url" :- to connect git to github
 
+git remote add upstream "url" :- to connect to forked repo
+
 git push origin branch :- to save the commits and push data to github
 
 git clone "url" :- to clone  repo
@@ -32,10 +34,11 @@ git branch "name" :- to create a branch
 
 git checkout "branch" :- to point towards the branch and every commit will happen on this branch
 
-git pull upstream main :- this will update the repo to the upstream 
+git pull upstream main :- this will update the repo to the upstream or to update the forked repo with original repo
 
 git remote remove origin :- to remove the origin 
 
+git rebase -i "string of a particular" :-  to squash commits to one commit
 
 // git bash basic command
 
