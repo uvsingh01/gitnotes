@@ -40,6 +40,8 @@ git remote remove origin :- to remove the origin
 
 git rebase -i "string of a particular" :-  to squash commits to one commit
 
+git reset HARD --force - to get back to a particular commit at which head is pointed
+
 // git bash basic command
 
 li :- to show all the files and folder 
